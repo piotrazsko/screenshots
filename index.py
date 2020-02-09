@@ -17,7 +17,7 @@ def inc():
 def on_press(key):
 
     print('{0} pressed'.format(key))
-    if 	key == Key.esc:
+    if 	key == Key.f10:
         return False
     if key == Key.enter:
         image = pyautogui.screenshot(region=(0,0, 1400, 1000))
